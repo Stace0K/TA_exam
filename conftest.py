@@ -34,3 +34,10 @@ def login():
         token = None
     logging.debug(f'Return token success')
     return token
+
+
+@pytest.fixture()
+def quick_vulnerability_check():
+    return 'nikto -h https://test-stand.gb.ru/ -ssl -Tuning 4'
+
+

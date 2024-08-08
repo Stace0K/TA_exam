@@ -1,4 +1,5 @@
 import time
+import subprocess
 from testpage import OperationsHelper
 import yaml
 import logging
@@ -6,6 +7,12 @@ import logging
 
 with open('./testdata.yaml') as f:
     testdata = yaml.safe_load(f)
+
+
+def test_vulnerability(quick_vulnerability_check):
+    logging.info('Test Vulnerability: running')
+    res = str(subprocess.run(quick_vulnerability_check, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE))
+    assert '0 error(s)' in res, 'Test Vulnerability FAILED'
 
 
 def test_log_in(browser):

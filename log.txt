@@ -1,6 +1,7 @@
-2024-08-08 01:40:40 INFO ====== WebDriver manager ======
-2024-08-08 01:40:40 INFO Get LATEST chromedriver version for google-chrome
-2024-08-08 01:40:41 INFO Get LATEST chromedriver version for google-chrome
-2024-08-08 01:40:41 INFO Driver [/home/user/.wdm/drivers/chromedriver/linux64/127.0.6533.99/chromedriver-linux64/chromedriver] found in cache
-2024-08-08 01:40:44 INFO Test Log in: running
-2024-08-08 01:40:47 INFO Test Font size: running
+2024-08-08 12:09:16 INFO Test Vulnerability: running
+2024-08-08 12:10:26 INFO ====== WebDriver manager ======
+2024-08-08 12:10:27 INFO Get LATEST chromedriver version for google-chrome
+2024-08-08 12:10:27 INFO Get LATEST chromedriver version for google-chrome
+2024-08-08 12:10:27 INFO Driver [/home/user/.wdm/drivers/chromedriver/linux64/127.0.6533.99/chromedriver-linux64/chromedriver] found in cache
+2024-08-08 12:10:30 INFO Test Log in: running
+2024-08-08 12:10:35 INFO Test Font size: running
